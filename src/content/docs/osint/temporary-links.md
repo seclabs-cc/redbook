@@ -3,8 +3,8 @@ title: "Temporary links"
 ---
 
 
-[Resource Link](https://www.maltego.com)
+[Maltego Official Website](https://www.maltego.com)
 
-[Resource Link](https://github.com/smicallef/spiderfoot)
+[SpiderFoot GitHub Repository](https://github.com/smicallef/spiderfoot)
 
-[Resource Link](https://github.com/lockfale/OSINT-Framework)
+[OSINT Framework GitHub Repository](https://github.com/lockfale/OSINT-Framework)

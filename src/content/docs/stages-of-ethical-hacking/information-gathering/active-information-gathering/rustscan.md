@@ -14,7 +14,7 @@ description: ">-"
 * The usuals you would expect. IPv6, CIDR, file input and more.
 * Automatically pipes ports into Nmap.
 
-[Resource Link](https://github.com/RustScan/RustScan)
+[RustScan GitHub Repository](https://github.com/RustScan/RustScan)
 
 ## Installation
 
@@ -49,8 +49,26 @@ rustscan -a 192.168.0.0/24
 
 ## Advanced Scan
 
-`TO BE DONE`
+```bash
+# Pass custom Nmap arguments (everything after '--' is passed to Nmap)
+rustscan -a $DOMAIN -- -A -sC
+
+# Adjust batch size (maximum number of concurrent sockets)
+rustscan -a $DOMAIN --batch-size 4500
+
+# Specify scan timeout in milliseconds
+rustscan -a $DOMAIN --timeout 1500
+
+# Top ports scan (scans top 1000 ports)
+rustscan -a $DOMAIN --top
+```
 
 ## Scripts
 
-`TO BE DONE`
+```bash
+# Run a custom script against open ports
+rustscan -a $DOMAIN --script "custom-script.sh"
+
+# Run built-in scripting commands (like piping to a custom web scanner)
+rustscan -a $DOMAIN -s "gobuster"
+```

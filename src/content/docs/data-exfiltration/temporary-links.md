@@ -3,8 +3,8 @@ title: "Temporary links"
 ---
 
 
-[Resource Link](https://github.com/Flangvik/SharpExfiltrate)
+[SharpExfiltrate GitHub Repository](https://github.com/Flangvik/SharpExfiltrate)
 
-[Resource Link](https://github.com/Arno0x/DNSExfiltrator)
+[DNSExfiltrator GitHub Repository](https://github.com/Arno0x/DNSExfiltrator)
 
-[Resource Link](https://github.com/FortyNorthSecurity/Egress-Assess)
+[Egress-Assess GitHub Repository](https://github.com/FortyNorthSecurity/Egress-Assess)
