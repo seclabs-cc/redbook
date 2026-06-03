@@ -17,6 +17,10 @@ export default defineConfig({
     "slug": "index"
   },
   {
+    "label": "Introduction",
+    "slug": "introduction"
+  },
+  {
     "label": "🦳 Stages of Ethical Hacking",
     "items": [
       {
