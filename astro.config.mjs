@@ -314,6 +314,26 @@ export default defineConfig({
       {
         "label": "Curl",
         "slug": "cheat-sheet/curl"
+      },
+      {
+        "label": "Nmap",
+        "slug": "cheat-sheet/nmap"
+      },
+      {
+        "label": "Reverse Shells",
+        "slug": "cheat-sheet/reverse-shells"
+      },
+      {
+        "label": "Netcat & Socat",
+        "slug": "cheat-sheet/netcat-socat"
+      },
+      {
+        "label": "Linux Privilege Escalation",
+        "slug": "cheat-sheet/linux-privesc"
+      },
+      {
+        "label": "Windows Privilege Escalation",
+        "slug": "cheat-sheet/windows-privesc"
       }
     ]
   }
