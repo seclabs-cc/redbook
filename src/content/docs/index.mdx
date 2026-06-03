@@ -1,0 +1,35 @@
+---
+title: "📕 The Red Book"
+description: "Only by knowing evil can you truly fight against it. Embrace your dark side."
+template: splash
+hero:
+  tagline: "Only by knowing evil can you truly fight against it 👿"
+  actions:
+    - text: Read the Book
+      link: /redbook/stages-of-ethical-hacking/information-gathering/
+      icon: right-arrow
+      variant: primary
+    - text: Visit seclabs.cc
+      link: https://seclabs.cc/
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Useful Resources & Links
+
+<CardGrid stagger>
+	<Card title="GitHub Profile" icon="github">
+		Check out our open-source tools and repositories on [GitHub](https://github.com/seclabs-cc).
+	</Card>
+	<Card title="About the Author" icon="open-book">
+		Learn more about the project and the author [here](renantmagalhaes.github.io/).
+	</Card>
+	<Card title="Hack The Box Walkthroughs" icon="document">
+		Explore machines walkthroughs at [insecurecodes.gitbook.io/hackthebox](https://insecurecodes.gitbook.io/hackthebox/).
+	</Card>
+	<Card title="TryHackMe Walkthroughs" icon="rocket">
+		Explore walkthroughs and paths solving at [insecurecodes.gitbook.io/tryhackme](https://insecurecodes.gitbook.io/tryhackme/).
+	</Card>
+</CardGrid>
